@@ -13,12 +13,12 @@
   padding: 2.5rem;
 }
 
-h2 {
+.text h2 {
   font-size: clamp(1.5rem, 3vw, 2rem);
   margin-bottom: 0.5rem;
 }
 
-p { color: var(--gray); margin-top: 0.5rem; }
+.text p { color: var(--gray); margin-top: 0.5rem; }
 
 .badges {
   list-style: none;

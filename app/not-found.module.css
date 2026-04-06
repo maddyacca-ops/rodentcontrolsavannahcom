@@ -17,9 +17,9 @@
   margin-bottom: 0.5rem;
 }
 
-h2 { margin-bottom: 1rem; }
+.inner h2 { margin-bottom: 1rem; }
 
-p {
+.inner p {
   color: var(--gray);
   margin-bottom: 2rem;
 }

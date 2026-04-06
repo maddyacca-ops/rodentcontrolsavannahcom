@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-h1 { margin: 0.5rem 0 1rem; }
+.heroInner h1 { margin: 0.5rem 0 1rem; }
 
 .heroInner p { color: var(--gray); line-height: 1.7; }
 

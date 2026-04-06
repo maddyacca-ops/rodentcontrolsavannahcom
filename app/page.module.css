@@ -25,7 +25,7 @@
 
 .heroText { position: relative; z-index: 1; }
 
-h1 { margin-bottom: 1.25rem; }
+.heroText h1 { margin-bottom: 1.25rem; }
 
 .heroSub {
   color: var(--gray);
