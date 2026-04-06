@@ -1,0 +1,35 @@
+.topbar {
+  background: #071307;
+  border-bottom: 1px solid rgba(46,125,50,0.3);
+  padding: 0.4rem 0;
+  font-size: 0.8rem;
+  color: var(--gray);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.address, .hours {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--green-light);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+.phone:hover { color: var(--white); }
+
+@media (max-width: 600px) {
+  .address { display: none; }
+}

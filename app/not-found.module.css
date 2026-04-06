@@ -1,0 +1,32 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.inner { max-width: 500px; }
+
+.code {
+  font-size: 6rem;
+  font-weight: 800;
+  color: var(--green);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+h2 { margin-bottom: 1rem; }
+
+p {
+  color: var(--gray);
+  margin-bottom: 2rem;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,24 @@
+.bar {
+  background: linear-gradient(90deg, #0d1f0d, var(--dark-3), #0d1f0d);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 0.85rem 0;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem 2rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--white);
+  font-weight: 500;
+}
+
+.icon { font-size: 1rem; }
